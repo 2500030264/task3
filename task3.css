@@ -1,0 +1,64 @@
+html,body{
+    margin:0;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:10pt;
+    background:white;
+}
+header{
+    height:50px;
+    line-height:50px;
+    background: rgb(6, 145, 108);
+    color:white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.main{
+    width: 30%;
+    min-width: 280px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(156, 192, 172, 0.85);
+    border-radius: 20px;
+    margin: 40px auto;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    height:calc(100%-80px);
+    line-height:30px;
+    background: rgb(6, 145, 108);
+    color:white;
+    font-size:15pt;
+    text-align: center;
+    font-weight: bold;
+
+}
+footer{
+    
+    height:30px;
+    line-height:30px;
+    background: rgb(6, 145, 108);
+    color:white;
+    font-size:15pt;
+    text-align: center;
+    font-weight: bold;
+}
+input,select,button{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    font-size: 16px;
+}
+button{
+  background: linear-gradient(135deg, #045f35, #17c490);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: beige;
+  transition: all 0.3s ease;
+}
+button:hover{
+    transform: scale(1.05);
+    background:rgb(2, 40, 38);
+}
